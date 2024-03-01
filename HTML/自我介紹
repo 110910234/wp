@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>莊宸維的自我介紹</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>莊宸維</h1>
+    <p>你好！我是莊宸維，很高興能在這裡與大家分享一些關於我的事情。</p>
+    <p>目前我專注於（你的興趣或領域），並努力成為（你的目標或夢想）。</p>
+    <p>在閒暇時，我喜歡（你的愛好或興趣），也享受與朋友一起探索新事物。</p>
+</body>
+</html>
+```
+
