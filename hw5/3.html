@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隨機移動按鈕</title>
+    <style>
+        .moving-button {
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            font-size: 16px;
+            transition: top 0.5s, left 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <button class="moving-button" id="movingButton">click</button>
+
+    <script>
+        function getRandomPosition(max) {
+            return Math.floor(Math.random() * max);
+        }
+
+        function moveButton() {
+            const button = document.getElementById('movingButton');
+            const windowWidth = window.innerWidth - button.offsetWidth;
+            const windowHeight = window.innerHeight - button.offsetHeight;
+            const newLeft = getRandomPosition(windowWidth);
+            const newTop = getRandomPosition(windowHeight);
+            button.style.left = newLeft + 'px';
+            button.style.top = newTop + 'px';
+        }
+
+        setInterval(moveButton, 1000); 
+    </script>
+</body>
+</html>
