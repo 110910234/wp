@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHA-256 雜湊值生成器</title>
+    <!-- 引入 CryptoJS 庫 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #555;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        #hashResult {
+            font-size: 18px;
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            white-space: pre-wrap;
+            text-align: left;
+            background-color: #9f9999;
+        }
+    </style>
+</head>
+<body>
+    <h1>SHA-256 雜湊值生成器</h1>
+    <label for="inputText">輸入您的文本：</label>
+    <input type="text" id="inputText" oninput="generateHash()" placeholder="在這裡輸入您的文本">
+    <div id="hashResult"></div>
+
+    <script>
+        function generateHash() {
+            const inputText = document.getElementById("inputText").value;
+            const hash = CryptoJS.SHA256(inputText).toString();
+            document.getElementById("hashResult").innerHTML = `<strong>SHA-256 雜湊值：</strong><br>${hash}`;
+        }
+    </script>
+</body>
+</html>
