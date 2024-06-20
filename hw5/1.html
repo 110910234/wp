@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>變大按鈕</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <button onclick="makeBigger()">變大</button>
+
+    <script>
+        function makeBigger() {
+            var box = document.getElementById('box');
+            var width = box.offsetWidth;
+            var height = box.offsetHeight;
+            box.style.width = (width + 10) + 'px';
+            box.style.height = (height + 10) + 'px';
+        }
+    </script>
+</body>
+</html>
