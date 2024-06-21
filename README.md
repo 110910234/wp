@@ -18,7 +18,7 @@
 
 ### 作業4：JavaScript 練習 2
 * https://github.com/110910234/wp/tree/master/hw4
-參考GPT
+ 參考GPT
 
 ### 作業5：DOM 的 JavaScript 操控練習
 變大
