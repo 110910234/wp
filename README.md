@@ -1,7 +1,7 @@
 # 期末作業
 
 ### 作業一：自我介紹網頁
-* [網頁]https://110910234.github.io/wp/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html
+* 網頁：https://110910234.github.io/wp/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html
 * 原始碼：https://github.com/110910234/wp/blob/master/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html
 
 內容由 ChatGPT 產生，然後我修改了興趣、圖片的部分
