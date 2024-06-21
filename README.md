@@ -1,26 +1,26 @@
-## 期末作業
+# 期末作業
 
-#作業一：自我介紹網頁
+###作業一：自我介紹網頁
 網頁：https://110910234.github.io/wp/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html
 原始碼：https://github.com/110910234/wp/blob/master/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html
 
 內容由 ChatGPT 產生，然後我修改了興趣、圖片的部分
 
-#作業2：註冊表單
+###作業2：註冊表單
 無css原始碼：https://github.com/110910234/wp/blob/master/hw2/%E8%A8%BB%E5%86%8A%E8%A1%A8%E5%96%AE(%E7%84%A1css).html
 無css網頁：https://110910234.github.io/wp/hw2/%E8%A8%BB%E5%86%8A%E8%A1%A8%E5%96%AE(%E7%84%A1css).html
 
 有css原始碼：https://github.com/110910234/wp/blob/master/hw2/%E8%A8%BB%E5%86%8A%E8%A1%A8%E5%96%AE(%E6%9C%89css).html
 有css網頁：https://110910234.github.io/wp/hw2/%E8%A8%BB%E5%86%8A%E8%A1%A8%E5%96%AE(%E6%9C%89css).html
 
-#作業3：JavaScript 基本練習
+###作業3：JavaScript 基本練習
 https://github.com/110910234/wp/tree/master/hw3
 
-#作業4：JavaScript 練習 2
+###作業4：JavaScript 練習 2
 https://github.com/110910234/wp/tree/master/hw4
 參考GPT
 
-#作業5：DOM 的 JavaScript 操控練習
+###作業5：DOM 的 JavaScript 操控練習
 變大
 原始碼：https://github.com/110910234/wp/blob/master/hw5/1.html
 網頁：https://110910234.github.io/wp/hw5/1.html
@@ -35,7 +35,7 @@ https://github.com/110910234/wp/tree/master/hw4
 
 使用chatgpt做為參考
 
-#作業6：側欄 -- CSS Transition 與 JavaScript
+###作業6：側欄 -- CSS Transition 與 JavaScript
 css
 原始碼：https://github.com/110910234/wp/blob/master/hw6/css.html
 網頁：https://110910234.github.io/wp/hw6/css.html
@@ -46,29 +46,29 @@ javascript
 
 使用chatgpt
 
-#作業7：SHA256 雜湊介面
+###作業7：SHA256 雜湊介面
 原始碼：https://github.com/110910234/wp/blob/master/hw7/Sha256.html
 網頁：https://110910234.github.io/wp/hw7/Sha256.html
 
 參考chatgpt
 
-#作業8：Layout 佈局
+###作業8：Layout 佈局
 原始碼：https://github.com/110910234/wp/blob/master/hw8/layout.html
 網頁：https://110910234.github.io/wp/hw8/layout.html
 
 參考範例、chatgpt
 
-#作業9：請做一個有繪圖的網頁 （難度不限，可以用套件）
+###作業9：請做一個有繪圖的網頁 （難度不限，可以用套件）
 原始碼：https://github.com/110910234/wp/blob/master/hw9/index.html
 網頁：https://110910234.github.io/wp/hw9/index.html
 
 使用chatgpt
 
-#作業10：請用 groq 大語言模型 LLM 做一個簡單的網頁應用
+###作業10：請用 groq 大語言模型 LLM 做一個簡單的網頁應用
 原始碼：https://github.com/110910234/wp/tree/master/%E4%BD%9C%E6%A5%AD10
 網頁：https://110910234.github.io/wp/%E4%BD%9C%E6%A5%AD10/index.html
 
 參考範例並使用chatgpt修改
 
-#作業11：請閱讀 denoApiService + Blog 的程式碼，並寫下你的理解，然後為程式碼加上詳細的註解
+###作業11：請閱讀 denoApiService + Blog 的程式碼，並寫下你的理解，然後為程式碼加上詳細的註解
 沒做
