@@ -13,8 +13,12 @@
 * 有css原始碼：https://github.com/110910234/wp/blob/master/hw2/%E8%A8%BB%E5%86%8A%E8%A1%A8%E5%96%AE(%E6%9C%89css).html
 * 有css網頁：https://110910234.github.io/wp/hw2/%E8%A8%BB%E5%86%8A%E8%A1%A8%E5%96%AE(%E6%9C%89css).html
 
+內容參考chatgpt
+
 ### 作業3：JavaScript 基本練習
 * https://github.com/110910234/wp/tree/master/hw3
+
+內容參考chatgpt
 
 ### 作業4：JavaScript 練習 2
 * https://github.com/110910234/wp/tree/master/hw4
